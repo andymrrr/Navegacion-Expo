@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# Expo Navigation App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Esta es una aplicación de ejemplo que demuestra cómo implementar diferentes tipos de navegación en una aplicación de Expo utilizando la nueva estructura de expo, La aplicación incluye navegación por pila (stack), navegación por pestañas (tab) y navegación por cajón (drawer).
 
-## Get started
+## Cómo Ejecutar el Proyecto
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+1. Clona este repositorio:
 
 ```bash
-npm run reset-project
+   git clone https://github.com/andymrrr/Navegacion-Expo.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Navega al directorio del proyecto:
 
-## Learn more
+```bash
+   cd Navegacion-Expo
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Instala las dependencias:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+   npm install
+```
 
-## Join the community
+4. Inicia el servidor de desarrollo:
 
-Join our community of developers creating universal apps.
+```bash
+   npm start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Dependencias Utilizadas
+
+Expo la nueva version viene con los tab y los stack pre instalado la unica dependencia es el drawer
+
+```bash
+npx expo install @react-navigation/drawer react-native-gesture-handler react-native-reanimated
+```
+
+## Documentacion.
+
+[Expo Drawer](https://docs.expo.dev/router/advanced/drawer/)
+[Expo Tabs](https://docs.expo.dev/router/advanced/tabs/)
+[Expo Stack](https://docs.expo.dev/router/advanced/stack/)
