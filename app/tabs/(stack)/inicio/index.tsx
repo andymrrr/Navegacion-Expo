@@ -10,7 +10,7 @@ const inicio = () => {
         <BotonPersonalizado
           className="mb-2"
           color="primario"
-          onPress={() => router.push("/productos")}
+          onPress={() => router.push("/tabs/(stack)/productos")}
         >
           Productos
         </BotonPersonalizado>
@@ -18,7 +18,7 @@ const inicio = () => {
           
           className="mb-2"
           color="secundario"
-          onPress={() => router.push("/perfil")}
+          onPress={() => router.push("/tabs/(stack)/perfil")}
         >
           Perfil
         </BotonPersonalizado>
@@ -26,7 +26,7 @@ const inicio = () => {
           
           className="mb-2"
           color="terciario"
-          onPress={() => router.push("/ajuste")}
+          onPress={() => router.push("/tabs/(stack)/ajuste")}
         >
           Ajuste
         </BotonPersonalizado>
