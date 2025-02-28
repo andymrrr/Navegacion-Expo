@@ -7,6 +7,7 @@ const DrawerLayout = () => {
     <Drawer
       drawerContent={DrawerPersonalizado}
       screenOptions={{
+                                      
         overlayColor: 'rgba(0,0,0,0,4)',
         drawerActiveTintColor:'indigo',
         headerShadowVisible: false,
@@ -15,6 +16,17 @@ const DrawerLayout = () => {
         }
       }}
     >
+       <Drawer.Screen
+        name="(tabs)" 
+        options={{
+          headerShown: false,  
+          drawerLabel: "Tabs",
+          title: "Tabs",
+          drawerIcon: ({color, size}) => (
+            <Ionicons name="albums-outline" size={size} color={color} />
+          )
+        }}
+      />
       <Drawer.Screen
         name="Usuario/index" 
         options={{
