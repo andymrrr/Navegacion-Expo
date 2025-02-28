@@ -38,6 +38,6 @@ npx expo install @react-navigation/drawer react-native-gesture-handler react-nat
 
 ## Documentacion.
 
-[Expo Drawer](https://docs.expo.dev/router/advanced/drawer/)
-[Expo Tabs](https://docs.expo.dev/router/advanced/tabs/)
-[Expo Stack](https://docs.expo.dev/router/advanced/stack/)
+- [Expo Drawer](https://docs.expo.dev/router/advanced/drawer/)
+- [Expo Tabs](https://docs.expo.dev/router/advanced/tabs/)
+- [Expo Stack](https://docs.expo.dev/router/advanced/stack/)
