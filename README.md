@@ -1,4 +1,4 @@
-# Expo Navigation App
+# NAVEGACION EXPO
 
 Esta es una aplicación de ejemplo que demuestra cómo implementar diferentes tipos de navegación en una aplicación de Expo utilizando la nueva estructura de expo, La aplicación incluye navegación por pila (stack), navegación por pestañas (tab) y navegación por cajón (drawer).
 
